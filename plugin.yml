@@ -1,0 +1,58 @@
+name: BanItem
+main: me.WolfCFR.BanItem.Main
+version: 1.7
+commands:
+    BanItem:
+       description: BanItem help.
+    BanItem add:
+       description: Blacklist an Item.
+    BanItem clear:
+       description: Clear Blacklist.
+    BanItem del:
+       description: remove an item from blacklist.
+    BanItem list:
+       description: Lists Items banned.
+    BanItem toggle conf:
+       description: toggle item confiscation.
+    BanItem toggle pickup:
+       description: toggle item pickup.
+    BanItem toggle break:
+       description: toggle item break.
+    BanItem toggle place:
+       description: toggle item place.
+    BanItem toggle int:
+       description: toggle item interaction.
+    BanItem toggle craft:
+       description: toggle item craft.
+    BanItem toggle click:
+       description: toggle item click.
+    BanItem config:
+       description: Show Config.
+permissions:
+    banitem.help:
+        description: BanItem help
+    banitem.add:
+        description: Blacklist an Item
+    banitem.clear:
+        description: Clear Blacklist
+    banitem.del:
+        description: remove an item from blacklist
+    banitem.toggle:
+        description: toggle options in config.
+    banitem.bypass.<itemid>:<data>:
+        description: bypass banned items
+    banitem.reload:
+        description: Reload Config
+    banitem.int.<itemid>:<data>:
+        description: bypass interaction of ban item
+    banitem.break.<itemid>:<data>:
+        description: bypass block break of ban item
+    banitem.place.<itemid>:<data>:
+        description: bypass block place of ban item
+    banitem.pickup.<itemid>:<data>:
+        description: bypass pickup of ban item 
+    banitem.craft.<itemid>:<data>:
+        description: bypass crafting of ban item 
+    banitem.click.<itemid>:<data>:
+        description: bypass Click of banned item
+        
